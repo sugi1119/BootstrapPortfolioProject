@@ -19,7 +19,7 @@
         <span class="icon-bar"></span>
       </button>
        <a class="navbar-brand" href="#">
-         <img class="logo" alt="logo" src="...">MeweB Design
+         <img class="logo" alt="logo" src="./img/Logomakr_7hCWur.png">
        </a>
       <!-- end of navbar-header -->
      </div>
@@ -36,15 +36,50 @@
       <!-- end of container-fluid -->
     </div>
   </nav>
+
   <!-- carousel -->
-  <div class="item">
-    <img src="..." alt="...">
-    <div class="carousel-caption">
-      <h3></h3>
-      <p></p>
-
+  <div id="portfolio-carousel" class="carousel slide" data-ride="carousel">
+    <!-- indicator -->
+    <ol class="carousel-indicators">
+      <li data-target="#portfolio-carousel" data-slide-to="0" calss="active"></li>
+      <li data-target="#portfolio-carousel" data-slide-to="1"></li>
+      <li data-target="#portfolio-carousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Midget the cat</h1>
+            <p>I am a 13 years old tabi cat.</p>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Zoe the dog</h1>
+            <p>I am the queen of house and no one cannot stop me.</p>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Delta the big eater</h1>
+            <p>I can eat anything quickly.</p>
+          </div>
+        </div>
+      </div>
     </div>
-
+      <a class="left carousel-control" href="#portfolio-carousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#portfolio-carousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+  </a>
+    <!-- end of #portfolio-carusel -->
   </div>
 
   <!--
